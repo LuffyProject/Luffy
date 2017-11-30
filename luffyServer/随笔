@@ -12,3 +12,6 @@ def cors(response):
     response['Access-Control-Allow-Headers'] = "*"
     return response
 还是中间件好用，一次配置，全局应用，妈妈再也不用担心跨域问题了
+# -------------------- admin 登录账号------------------
+用户名：root
+密码：root@1234
